@@ -13,10 +13,10 @@ class CustomTag extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(10.0),
+      padding: const EdgeInsets.all(8.0),
       decoration: BoxDecoration(
         color: backgroundColor,
-        borderRadius: BorderRadius.circular(20.0),
+        borderRadius: BorderRadius.circular(18.0),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
